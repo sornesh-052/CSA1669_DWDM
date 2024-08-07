@@ -1,0 +1,22 @@
+@relation market_basket
+
+@attribute Bread {t, f}
+@attribute Peanuts {t, f}
+@attribute Milk {t, f}
+@attribute Fruit {t, f}
+@attribute Jam {t, f}
+@attribute Soda {t, f}
+@attribute Chips {t, f}
+@attribute Steak {t, f}
+@attribute Cheese {t, f}
+@attribute Yogurt {t, f}
+
+@data
+t, t, t, t, t, f, f, f, f, f
+t, f, t, t, t, t, t, f, f, f
+t, f, f, f, t, t, t, t, f, f
+f, f, t, t, t, t, f, f, f, f
+t, f, t, t, t, t, t, f, f, f
+f, f, t, t, f, t, t, f, f, f
+f, f, t, t, f, t, t, f, f, f
+f, t, f, t, f, f, f, f, t, t

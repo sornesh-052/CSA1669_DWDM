@@ -1,0 +1,12 @@
+@relation k-means
+@attribute empid{111,222,333,444,555}
+@attribute gender{male,female}
+@attribute age{27,22,24,31,29}
+@attribute salary{15000,20000,30000,18000,45000}
+
+@data
+111,male,27,15000
+222,male,22,20000
+333,female,24,30000
+444,female,31,18000
+555,male,29,45000

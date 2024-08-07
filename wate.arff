@@ -1,0 +1,16 @@
+@relation water
+
+@attribute mortality numeric
+@attribute hardness numeric
+
+@data
+1200, 80
+1300, 85
+1400, 90
+1250, 70
+1500, 95
+1450, 100
+1600, 75
+1350, 60
+1550, 65
+1700, 110

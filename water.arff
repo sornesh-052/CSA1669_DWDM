@@ -1,0 +1,11 @@
+@relation water
+
+@attribute litre real
+@attribute price real
+@attribute worth{yes,no}
+
+@data
+2,76,yes
+4,22,no
+5,54,yes
+4,20,yes

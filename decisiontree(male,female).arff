@@ -1,0 +1,17 @@
+
+
+@relation height_weight_gender
+
+@attribute height numeric
+@attribute weight numeric
+@attribute gender {male, female}
+
+@data
+190, 85, male
+175, 70, female
+185, 90, male
+160, 75, female
+170, 95, male
+180, 82, female
+165, 78, female
+195, 100, male

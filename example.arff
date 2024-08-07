@@ -1,0 +1,16 @@
+@RELATION example
+
+@ATTRIBUTE age NUMERIC
+@ATTRIBUTE income {low, medium, high}
+@ATTRIBUTE student {yes, no}
+@ATTRIBUTE credit_rating {fair, excellent}
+@ATTRIBUTE class {yes, no}
+
+@DATA
+25, high, no, fair, no
+30, medium, yes, excellent, yes
+45, low, yes, fair, yes
+35, medium, no, excellent, no
+50, high, yes, fair, yes
+23, low, yes, excellent, no
+40, medium, no, fair, no
