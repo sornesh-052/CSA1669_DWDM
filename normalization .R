@@ -1,16 +1,24 @@
-v<-c(23,23,27,27,39,41,47,49,50,52,54,54,56,57,58,58,60,61)
-min<-0
-max<-1
-#min_max
-min_max=((35-min(v))/(max(v)-min(v)))
-print(min_max)
-#z-score
-m=mean(v)
-s<-12.94
-z_score=(35-m)/s
-print(z_score)
-#decimal scaling
-m<-35
-j=max(m)<1
-decimal_scaling=m/10^j
-print(decimal_scaling)
+data <- c(200, 300, 400, 600, 1000)
+
+# (a) Min-Max Normalization
+min_val <- min(data)
+max_val <- max(data)
+min_max_normalized <- (data - min_val) / (max_val - min_val)
+min_max_normalized
+
+# (b) Z-Score Normalization
+mean_val <- mean(data)
+sd_val <- sd(data)
+z_score_normalized <- (data - mean_val) / sd_val
+z_score_normalized
+
+# Find the maximum absolute value
+max_val <- max(abs(data))
+
+# Determine the scaling factor (number of digits of the maximum value)
+scaling_factor <- 10^ceiling(log10(max_val))
+
+# Perform decimal scaling normalization
+decimal_scaled <- data / scaling_factor
+
+decimal_scaled
